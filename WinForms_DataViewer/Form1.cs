@@ -79,7 +79,13 @@ namespace WinForms_DataViewer
             }
         }
 
-
+        //
+        //Sort button vode but it doesn't seem to be working. At atleast it is not pointing to the correct column.
+        //
+        private void btn_PriceSortAsend_Click(object sender, EventArgs e)
+        {
+            dataGridView_Products.Sort(dataGridView_Products.Columns[1], ListSortDirection.Ascending);
+        }
 
         private void btn_Help_Click(object sender, EventArgs e)
         {

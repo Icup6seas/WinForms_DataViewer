@@ -111,7 +111,7 @@
             this.btn_PriceSortAsend.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_PriceSortAsend.Location = new System.Drawing.Point(121, 372);
             this.btn_PriceSortAsend.Name = "btn_PriceSortAsend";
-            this.btn_PriceSortAsend.Size = new System.Drawing.Size(90, 35);
+            this.btn_PriceSortAsend.Size = new System.Drawing.Size(110, 35);
             this.btn_PriceSortAsend.TabIndex = 6;
             this.btn_PriceSortAsend.Text = "Price Sort";
             this.btn_PriceSortAsend.UseVisualStyleBackColor = false;

@@ -17,7 +17,6 @@ namespace WinForms_DataViewer
         public double UnitsSold { get; set; }
         public string Manufacturer { get; set; }
         public string ImageFileName { get; set; }
-        public string Instructions { get; set; }
 
         public string ProductNameAndNumber()
         {

@@ -10,19 +10,22 @@ using System.Windows.Forms;
 
 namespace WinForms_DataViewer
 {
-    public partial class HelpFrom : Form
+    public partial class HelpForm : Form
     {
         Product _productHelp = new Product();
 
-        public HelpFrom(Product productHelp)
+        public HelpForm(Product productHelp)
         {
             InitializeComponent();
             _productHelp = productHelp;
         }
 
-        private void HelpFrom_Load(object sender, EventArgs e)
+        private void HelpForm_Load(object sender, EventArgs e)
         {
-            textBox1.Text = "Test" + _productHelp.HelpTextBox.ToString();
+            lbl_Instructions.Text = 
+                "Instructions: " + 
+                "\nPlease highlight the entire row before" + 
+                "\nviewing the details or delete a row.";
         }
 
         private void btn_Close_Click(object sender, EventArgs e)

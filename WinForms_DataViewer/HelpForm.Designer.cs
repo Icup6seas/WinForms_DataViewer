@@ -1,6 +1,6 @@
 ﻿namespace WinForms_DataViewer
 {
-    partial class HelpFrom
+    partial class HelpForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btn_Close = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbl_Instructions = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Close
@@ -42,23 +42,25 @@
             this.btn_Close.UseVisualStyleBackColor = true;
             this.btn_Close.Click += new System.EventHandler(this.btn_Close_Click);
             // 
-            // textBox1
+            // lbl_Instructions
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 13);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(304, 22);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.HelpFrom_Load);
+            this.lbl_Instructions.AutoSize = true;
+            this.lbl_Instructions.Location = new System.Drawing.Point(13, 35);
+            this.lbl_Instructions.Name = "lbl_Instructions";
+            this.lbl_Instructions.Size = new System.Drawing.Size(84, 17);
+            this.lbl_Instructions.TabIndex = 1;
+            this.lbl_Instructions.Text = "Instructions";
             // 
-            // Help
+            // HelpForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(348, 367);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lbl_Instructions);
             this.Controls.Add(this.btn_Close);
-            this.Name = "Help";
+            this.Name = "HelpForm";
             this.Text = "Help";
+            this.Load += new System.EventHandler(this.HelpForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -67,6 +69,6 @@
         #endregion
 
         private System.Windows.Forms.Button btn_Close;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lbl_Instructions;
     }
 }

@@ -79,6 +79,20 @@ namespace WinForms_DataViewer
             }
         }
 
+
+
+        private void btn_Help_Click(object sender, EventArgs e)
+        {
+            if (dataGridView_Products.SelectedRows.Count >= 0)
+            {
+                Product product = new Product();
+                product = (Product)dataGridView_Products.CurrentRow.DataBoundItem;
+
+                HelpForm helpFrom = new HelpForm(product);
+                helpFrom.ShowDialog();
+            }
+        }
+
         private void btn_Close_Click(object sender, EventArgs e)
         {
             try

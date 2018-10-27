@@ -127,7 +127,7 @@
             this.Controls.Add(this.image_Picture);
             this.Controls.Add(this.lbl_ProductName);
             this.Name = "DetailForm";
-            this.Text = "DetailForm";
+            this.Text = "Detail Form";
             ((System.ComponentModel.ISupportInitialize)(this.image_Picture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnHelp = new System.Windows.Forms.Button();
-            this.btnDetails = new System.Windows.Forms.Button();
-            this.btnDeleteSelected = new System.Windows.Forms.Button();
+            this.btn_Close = new System.Windows.Forms.Button();
+            this.btn_Help = new System.Windows.Forms.Button();
+            this.btn_Details = new System.Windows.Forms.Button();
+            this.btn_DeleteSelected = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,51 +45,51 @@
             this.dataGridView.Size = new System.Drawing.Size(776, 317);
             this.dataGridView.TabIndex = 0;
             // 
-            // btnClose
+            // btn_Close
             // 
-            this.btnClose.Location = new System.Drawing.Point(713, 12);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 30);
-            this.btnClose.TabIndex = 1;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btn_Close.Location = new System.Drawing.Point(713, 12);
+            this.btn_Close.Name = "btn_Close";
+            this.btn_Close.Size = new System.Drawing.Size(75, 30);
+            this.btn_Close.TabIndex = 1;
+            this.btn_Close.Text = "Close";
+            this.btn_Close.UseVisualStyleBackColor = true;
             // 
-            // btnHelp
+            // btn_Help
             // 
-            this.btnHelp.Location = new System.Drawing.Point(12, 12);
-            this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(75, 30);
-            this.btnHelp.TabIndex = 2;
-            this.btnHelp.Text = "Help";
-            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btn_Help.Location = new System.Drawing.Point(12, 12);
+            this.btn_Help.Name = "btn_Help";
+            this.btn_Help.Size = new System.Drawing.Size(75, 30);
+            this.btn_Help.TabIndex = 2;
+            this.btn_Help.Text = "Help";
+            this.btn_Help.UseVisualStyleBackColor = true;
             // 
-            // btnDetails
+            // btn_Details
             // 
-            this.btnDetails.Location = new System.Drawing.Point(13, 372);
-            this.btnDetails.Name = "btnDetails";
-            this.btnDetails.Size = new System.Drawing.Size(74, 35);
-            this.btnDetails.TabIndex = 3;
-            this.btnDetails.Text = "Details";
-            this.btnDetails.UseVisualStyleBackColor = true;
+            this.btn_Details.Location = new System.Drawing.Point(13, 372);
+            this.btn_Details.Name = "btn_Details";
+            this.btn_Details.Size = new System.Drawing.Size(74, 35);
+            this.btn_Details.TabIndex = 3;
+            this.btn_Details.Text = "Details";
+            this.btn_Details.UseVisualStyleBackColor = true;
             // 
-            // btnDeleteSelected
+            // btn_DeleteSelected
             // 
-            this.btnDeleteSelected.Location = new System.Drawing.Point(670, 371);
-            this.btnDeleteSelected.Name = "btnDeleteSelected";
-            this.btnDeleteSelected.Size = new System.Drawing.Size(117, 35);
-            this.btnDeleteSelected.TabIndex = 4;
-            this.btnDeleteSelected.Text = "Delete Selected";
-            this.btnDeleteSelected.UseVisualStyleBackColor = true;
+            this.btn_DeleteSelected.Location = new System.Drawing.Point(670, 371);
+            this.btn_DeleteSelected.Name = "btn_DeleteSelected";
+            this.btn_DeleteSelected.Size = new System.Drawing.Size(117, 35);
+            this.btn_DeleteSelected.TabIndex = 4;
+            this.btn_DeleteSelected.Text = "Delete Selected";
+            this.btn_DeleteSelected.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 493);
-            this.Controls.Add(this.btnDeleteSelected);
-            this.Controls.Add(this.btnDetails);
-            this.Controls.Add(this.btnHelp);
-            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btn_DeleteSelected);
+            this.Controls.Add(this.btn_Details);
+            this.Controls.Add(this.btn_Help);
+            this.Controls.Add(this.btn_Close);
             this.Controls.Add(this.dataGridView);
             this.Name = "Form1";
             this.Text = "WinForms Data Viewer";
@@ -101,10 +101,10 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView;
-        private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button btnHelp;
-        private System.Windows.Forms.Button btnDetails;
-        private System.Windows.Forms.Button btnDeleteSelected;
+        private System.Windows.Forms.Button btn_Close;
+        private System.Windows.Forms.Button btn_Help;
+        private System.Windows.Forms.Button btn_Details;
+        private System.Windows.Forms.Button btn_DeleteSelected;
     }
 }
 

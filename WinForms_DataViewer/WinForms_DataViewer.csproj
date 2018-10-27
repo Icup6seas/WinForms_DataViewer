@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\IDataService.cs" />
+    <Compile Include="DAL\XmlDataService.cs" />
+    <Compile Include="Data\AppConfig.cs" />
     <Compile Include="DetailForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +61,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Products.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DetailForm.resx">
@@ -88,11 +92,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="DAL\" />
-    <Folder Include="Data\" />
-    <Folder Include="Images\" />
-    <Folder Include="Models\" />
+    <Content Include="Data\PlaystationProducts.xml" />
+    <Content Include="Images\PS.jpg" />
+    <Content Include="Images\PS2.jpg" />
+    <Content Include="Images\PS3.jpg" />
+    <Content Include="Images\PS4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

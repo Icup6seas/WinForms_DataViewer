@@ -84,7 +84,7 @@ namespace WinForms_DataViewer
         //
         private void btn_PriceSortAsend_Click(object sender, EventArgs e)
         {
-            dataGridView_Products.Sort(dataGridView_Products.Columns[1], ListSortDirection.Ascending);
+            dataGridView_Products.Sort(dataGridView_Products.Columns[3], ListSortDirection.Ascending);
         }
 
         private void btn_Help_Click(object sender, EventArgs e)

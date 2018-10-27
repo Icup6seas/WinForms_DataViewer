@@ -57,7 +57,6 @@
             this.image_Picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.image_Picture.TabIndex = 6;
             this.image_Picture.TabStop = false;
-            this.image_Picture.Click += new System.EventHandler(this.image_Picture_Click);
             // 
             // btnClose
             // 
@@ -67,6 +66,7 @@
             this.btnClose.TabIndex = 9;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btn_Close_Click);
             // 
             // lbl_ReleaseDate
             // 
@@ -128,6 +128,7 @@
             this.Controls.Add(this.lbl_ProductName);
             this.Name = "DetailForm";
             this.Text = "Detail Form";
+            this.Load += new System.EventHandler(this.DetailForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.image_Picture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

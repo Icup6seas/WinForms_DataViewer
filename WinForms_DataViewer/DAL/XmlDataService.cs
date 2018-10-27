@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.IO;
 
-namespace WinForms_DataViewer.DAL
+namespace WinForms_DataViewer
 {
     public class XmlDataService : IDataService
     {
@@ -51,11 +51,6 @@ namespace WinForms_DataViewer.DAL
 
                 throw;
             }
-        }
-
-        public XmlDataService()
-        {
-
         }
 
         public XmlDataService(string datafile)

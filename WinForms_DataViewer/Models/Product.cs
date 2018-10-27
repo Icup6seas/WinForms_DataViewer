@@ -4,19 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinForms_DataViewer.Models
+namespace WinForms_DataViewer
 {
-    public class Products
+    public class Product
     {
         public int Id { get; set; }
         public string ProductName { get; set; }
         public int Number { get; set; }
-        public int Price { get; set; }
-        public int DateReleased { get; set; }
+        public double Price { get; set; }
+        public string DateReleased { get; set; }
         public string Media { get; set; }
-        public int UnitsSold { get; set; }
+        public double UnitsSold { get; set; }
         public string Manufacturer { get; set; }
         public string ImageFileName { get; set; }
+        public string HelpTextBox { get; set; }
 
         public string ProductNameAndNumber()
         {

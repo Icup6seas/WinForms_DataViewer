@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinForms_DataViewer.Data
+namespace WinForms_DataViewer
 {
     public static class AppConfig
     {
-        public static string dataFilePath = @"Data\PlaystationPoducts.xml";
+        public static string dataFilePath = @"Data\PlaystationProducts.xml";
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinForms_DataViewer.DAL
+namespace WinForms_DataViewer
 {
-    class interface IDataService
+    public interface IDataService
     {
         List<Product> ReadAll();
         void WriteAll(List<Product> products);

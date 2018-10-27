@@ -12,14 +12,29 @@ namespace WinForms_DataViewer
 {
     public partial class DetailForm : Form
     {
-        public DetailForm()
+        Product _model = new Product();
+
+
+        public DetailForm(Product model)
         {
             InitializeComponent();
+            _model = model;
         }
 
-        private void image_Picture_Click(object sender, EventArgs e)
+        private void DetailForm_Load(object sender, EventArgs e)
         {
+            lbl_ProductName.Text = _model.ProductNameAndNumber();
+            lbl_RetailPrice.Text = "Retail Price: " + "$" +  _model.Price.ToString();
+            lbl_ReleaseDate.Text = "Release Date: " + _model.DateReleased.ToString();
+            lbl_UnitsSold.Text = "Units Sold: " + _model.UnitsSold.ToString() + " Million";
+            lbl_Media.Text = "Supported Media: " + _model.Media.ToString();
+            lbl_Manufacturer.Text = "Manufacturer: " + _model.Manufacturer.ToString();
+            image_Picture.Image = Image.FromFile(@"Images/" + _model.ImageFileName);
+        }
 
+        private void btn_Close_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

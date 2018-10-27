@@ -20,7 +20,7 @@
     <Number>2</Number>
     <Price>299</Price>
     <DateReleased>10/26/2000</DateReleased>
-    <Media>DVD-ROM, CD-ROM</Media>
+    <Media>DVD-ROM,CD-ROM</Media>
     <UnitsSold>155</UnitsSold>
     <Manufacturer>Japan</Manufacturer>
     <ImageFileName>PS2.jpg</ImageFileName>
@@ -31,7 +31,7 @@
     <Number>3</Number>
     <Price>499</Price>
     <DateReleased>11/17/2006</DateReleased>
-    <Media>BD-ROM, DVD-ROM, CD-ROM</Media>
+    <Media>BD-ROM,DVD-ROM,CD-ROM</Media>
     <UnitsSold>84</UnitsSold>
     <Manufacturer>Japan</Manufacturer>
     <ImageFileName>PS3.jpg</ImageFileName>
@@ -42,7 +42,7 @@
     <Number>4</Number>
     <Price>399</Price>
     <DateReleased>11/15/2013</DateReleased>
-    <Media>Blu-ROM, DVD-ROM</Media>
+    <Media>Blu-ROM,DVD-ROM</Media>
     <UnitsSold>81.2</UnitsSold>
     <Manufacturer>Japan</Manufacturer>
     <ImageFileName>PS4.jpg</ImageFileName>
